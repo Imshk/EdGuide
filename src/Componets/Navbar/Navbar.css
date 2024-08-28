@@ -1,0 +1,45 @@
+nav {
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure the navbar is on top */
+    transition: background-color 0.3s ease;
+}
+
+nav img {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+li a:hover {
+    color: #007BFF;
+}
+
+.dark-nav {
+    background: rgb(11, 4, 55); /* Dark background with slight transparency */
+}
